@@ -21,7 +21,7 @@ class DuplicateField extends BaseField {
     )
   );
 
-  public $copytree = false;
+  public $copytree = true;
   public $copyfile = true;
 
   public function input() {
